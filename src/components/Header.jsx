@@ -1,12 +1,12 @@
 import React from 'react'
 import {NavLink,Link} from "react-router-dom"
-
+import "./Header.css"
 const header = () => {
 
   
   return (
     <div>
-        
+    
         <header className="hide-when-mobile">
           <Link to="/">   <h1>Cousaty</h1></Link>
       

@@ -1,10 +1,10 @@
 import React from 'react'
-
+import "./Footer.css"
 const Footer = () => {
   return (
-    <div>
+    <div className='myfooter'>
            <footer>
-        Designed and developed by Coursaty<span>🧡</span>
+     <h1>hello</h1>   Designed and developed by Coursaty<span>🧡</span>
       </footer>
 
     </div>

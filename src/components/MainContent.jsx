@@ -6,7 +6,7 @@ const MainContent = ({pageName, designer} ) => {
           <main>
    {pageName}
    <br />
-   <h1 className="animate__animated animate__bounce" style={{color:"red"}}>An animated element</h1>
+   <h1 className="animate__animated animate__bounce" style={{color:"red"}}>{designer}</h1>
   {designer}
       </main>
     </div>
